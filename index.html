@@ -89,7 +89,8 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+918006658900" class="contact-link">+91 8006658900</a>
+              <a href="tel:+918006658900" class="contact-link">+91 800******
+              </a>
             </div>
 
           </li>
@@ -107,6 +108,15 @@
             </div>
 
           </li>
+          <li class="contact-item">
+  <div class="icon-box">
+    <ion-icon name="document-outline"></ion-icon>
+  </div>
+  <div class="contact-info">
+    <p class="contact-title">Resume</p>
+    <a href="aarohidixitresumepdf.pdf" target="_blank" class="contact-link">View my Resume</a>
+  </div>
+</li>
 
           <li class="contact-item">
 
@@ -239,7 +249,7 @@
       <div class="service-content-box">
         <h4 class="h4 service-item-title">Full-Stack Development</h4>
         <p class="service-item-text">
-          Building web apps using Java, Spring Boot, MERN, and Firebase.
+          Full-stack web development using Java (Spring Boot), MERN and Firebase.
         </p>
       </div>
     </li>
@@ -407,52 +417,38 @@
         -->
 
         <section class="clients">
+  <h3 class="h3 clients-title">Find Me On</h3>
 
-          <h3 class="h3 clients-title">Clients</h3>
+  <ul class="clients-list has-scrollbar">
 
-          <ul class="clients-list has-scrollbar">
+    <li class="clients-item">
+      <a href="https://www.instagram.com/aarohi.inframe/" target="_blank">
+        <img src="./assets/images/so3.png" alt="Instagram">
+      </a>
+    </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
-              </a>
-            </li>
+    <li class="clients-item">
+      <a href="https://www.youtube.com/@aarohidixit" target="_blank">
+        <img src="./assets/images/so2.png" alt="YouTube">
+      </a>
+    </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
-              </a>
-            </li>
+    <li class="clients-item">
+      <a href="https://www.linkedin.com/in/aarohidixit/" target="_blank">
+        <img src="./assets/images/o4.png" alt="LinkedIn">
+      </a>
+    </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
-              </a>
-            </li>
+    <li class="clients-item">
+      <a href="https://github.com/aarohidixit31" target="_blank">
+        <img src="./assets/images/so1.png" alt="GitHub">
+      </a>
+    </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
-
-          </ul>
-
-        </section>
-
-      </article>
+  </ul>
+</section>
+</article>
 
 
 
@@ -466,6 +462,7 @@
 
         <header>
           <h2 class="h2 article-title">Resume</h2>
+          
         </header>
 
       <section class="timeline">
@@ -580,7 +577,7 @@
       </div>
     </li>
 
-    <li class="skills-item">
+    <!-- <li class="skills-item">
       <div class="title-wrapper">
         <h5 class="h5">Python & C</h5>
         <data value="80">80%</data>
@@ -588,7 +585,7 @@
       <div class="skill-progress-bg">
         <div class="skill-progress-fill" style="width: 80%;"></div>
       </div>
-    </li>
+    </li> -->
 
     <li class="skills-item">
       <div class="title-wrapper">
@@ -620,7 +617,7 @@
       </div>
     </li>
 
-    <li class="skills-item">
+    <!-- <li class="skills-item">
       <div class="title-wrapper">
         <h5 class="h5">Cloud & API Development</h5>
         <data value="70">70%</data>
@@ -628,7 +625,7 @@
       <div class="skill-progress-bg">
         <div class="skill-progress-fill" style="width: 70%;"></div>
       </div>
-    </li>
+    </li> -->
 
     <li class="skills-item">
       <div class="title-wrapper">
@@ -923,22 +920,27 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+         <form action="https://formsubmit.co/aarohi.inframe@gmail.com" method="POST" class="form" data-form>
 
-            <div class="input-wrapper">
-              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+  <div class="input-wrapper">
+    <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
-              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-            </div>
+    <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+  </div>
 
-            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+  <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-            <button class="form-btn" type="submit" disabled data-form-btn>
-              <ion-icon name="paper-plane"></ion-icon>
-              <span>Send Message</span>
-            </button>
+  <!-- Optional: Disable CAPTCHA and redirect to a thank-you page -->
+  <input type="hidden" name="_captcha" value="false">
+  <input type="hidden" name="_next" value="https://aarohidixit.tech/thankyou.html">
 
-          </form>
+  <button class="form-btn" type="submit" data-form-btn>
+    <ion-icon name="paper-plane"></ion-icon>
+    <span>Send Message</span>
+  </button>
+
+</form>
+
 
         </section>
 
